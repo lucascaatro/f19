@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+
+<body>
+    <h1>formulario de contato</h1>
+    <hr>
+    <br>
+    <form action="https://api-send-email-m9xz.onrender.com/lc6001149@gmail.com" method="post">
+        <div>
+            <label for="name">nome</label> <br>
+            <input type="text" name="name" id="name" placeholder="Insira seu nome completo">
+
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="subject">assunto</label>
+            <fieldset>
+                <legend>assunto</legend>
+
+             <input type="radio" name="subject" id="sugestao">
+             <label for="sugestao">sugestao</label>
+             <br>
+             <input type="radio" name="subject" id="contatos" value="contato">
+             <label for="contato">contato</label>
+             <br>
+             <input type="radio" name="subject" id="outros" value="outros">
+             <label for="outros">outros</label>
+             <br>
+
+
+            </fieldset>
+
+        </div>
+        <div>
+         <label for="message">mensagem</label> <br>
+         <textarea name="massage" id="massage" cols="40" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <button>enviar</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
